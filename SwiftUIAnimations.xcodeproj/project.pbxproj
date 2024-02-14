@@ -14,7 +14,8 @@
 		801186F42B7C290A0078E906 /* SwiftUIAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801186F32B7C290A0078E906 /* SwiftUIAnimationsTests.swift */; };
 		801186FE2B7C290A0078E906 /* SwiftUIAnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801186FD2B7C290A0078E906 /* SwiftUIAnimationsUITests.swift */; };
 		801187002B7C290A0078E906 /* SwiftUIAnimationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801186FF2B7C290A0078E906 /* SwiftUIAnimationsUITestsLaunchTests.swift */; };
-		80E99C232B7D536900C62CC9 /* Animation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E99C222B7D536900C62CC9 /* Animation2.swift */; };
+		80E99C252B7D559300C62CC9 /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E99C242B7D559300C62CC9 /* ExplicitAnimations.swift */; };
+		80E99C272B7D569F00C62CC9 /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E99C262B7D569F00C62CC9 /* AnimatingBindings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,8 @@
 		801186F92B7C290A0078E906 /* SwiftUIAnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		801186FD2B7C290A0078E906 /* SwiftUIAnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsUITests.swift; sourceTree = "<group>"; };
 		801186FF2B7C290A0078E906 /* SwiftUIAnimationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		80E99C222B7D536900C62CC9 /* Animation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation2.swift; sourceTree = "<group>"; };
+		80E99C242B7D559300C62CC9 /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
+		80E99C262B7D569F00C62CC9 /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 				801186E42B7C29070078E906 /* ContentView.swift */,
 				801186E62B7C29090078E906 /* Assets.xcassets */,
 				801186E82B7C29090078E906 /* Preview Content */,
-				80E99C222B7D536900C62CC9 /* Animation2.swift */,
+				80E99C242B7D559300C62CC9 /* ExplicitAnimations.swift */,
+				80E99C262B7D569F00C62CC9 /* AnimatingBindings.swift */,
 			);
 			path = SwiftUIAnimations;
 			sourceTree = "<group>";
@@ -260,9 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80E99C232B7D536900C62CC9 /* Animation2.swift in Sources */,
+				80E99C252B7D559300C62CC9 /* ExplicitAnimations.swift in Sources */,
 				801186E52B7C29070078E906 /* ContentView.swift in Sources */,
 				801186E32B7C29070078E906 /* SwiftUIAnimationsApp.swift in Sources */,
+				80E99C272B7D569F00C62CC9 /* AnimatingBindings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

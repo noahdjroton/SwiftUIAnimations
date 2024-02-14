@@ -1,5 +1,5 @@
 //
-//  Animation2.swift
+//  AnimatingBindings.swift
 //  SwiftUIAnimations
 //
 //  Created by Djroton Noé SOSSOU on 14/02/2024.
@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct Animation2: View {
+struct AnimatingBindings: View {
     @State private var animationAmount = 1.0
     var body: some View {
         print(animationAmount)
 
         return VStack {
-            Stepper("Scale amount", value: $animationAmount.animation(.easeInOut(duration: 1)
+            Stepper("Scale amount", value: $animationAmount.animation(.easeInOut(duration: 2)
                 .repeatCount(3, autoreverses: true)), in: 1...100)
             Spacer()
             Button("Tap Me"){
@@ -30,5 +30,5 @@ struct Animation2: View {
 }
 
 #Preview {
-    Animation2()
+    AnimatingBindings()
 }
