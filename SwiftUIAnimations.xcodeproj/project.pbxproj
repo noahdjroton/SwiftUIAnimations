@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800710B32B84EEC7008BC271 /* AnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800710B22B84EEC7008BC271 /* AnimationStack.swift */; };
+		800710B52B84FCB4008BC271 /* AnimatingGestures1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800710B42B84FCB4008BC271 /* AnimatingGestures1.swift */; };
+		800710B72B850081008BC271 /* AnimatingGestures2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800710B62B850081008BC271 /* AnimatingGestures2.swift */; };
+		800710B92B852192008BC271 /* ShowingHidingViewsWithTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800710B82B852192008BC271 /* ShowingHidingViewsWithTransitions.swift */; };
+		800710BB2B8522A4008BC271 /* CustomTransitionsUsingViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800710BA2B8522A4008BC271 /* CustomTransitionsUsingViewModifier.swift */; };
 		801186E32B7C29070078E906 /* SwiftUIAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801186E22B7C29070078E906 /* SwiftUIAnimationsApp.swift */; };
 		801186E52B7C29070078E906 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801186E42B7C29070078E906 /* ContentView.swift */; };
 		801186E72B7C29090078E906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801186E62B7C29090078E906 /* Assets.xcassets */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		800710B22B84EEC7008BC271 /* AnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStack.swift; sourceTree = "<group>"; };
+		800710B42B84FCB4008BC271 /* AnimatingGestures1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures1.swift; sourceTree = "<group>"; };
+		800710B62B850081008BC271 /* AnimatingGestures2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures2.swift; sourceTree = "<group>"; };
+		800710B82B852192008BC271 /* ShowingHidingViewsWithTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingHidingViewsWithTransitions.swift; sourceTree = "<group>"; };
+		800710BA2B8522A4008BC271 /* CustomTransitionsUsingViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsUsingViewModifier.swift; sourceTree = "<group>"; };
 		801186DF2B7C29070078E906 /* SwiftUIAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		801186E22B7C29070078E906 /* SwiftUIAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsApp.swift; sourceTree = "<group>"; };
 		801186E42B7C29070078E906 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +114,11 @@
 				801186E82B7C29090078E906 /* Preview Content */,
 				80E99C242B7D559300C62CC9 /* ExplicitAnimations.swift */,
 				80E99C262B7D569F00C62CC9 /* AnimatingBindings.swift */,
+				800710B22B84EEC7008BC271 /* AnimationStack.swift */,
+				800710B42B84FCB4008BC271 /* AnimatingGestures1.swift */,
+				800710B62B850081008BC271 /* AnimatingGestures2.swift */,
+				800710B82B852192008BC271 /* ShowingHidingViewsWithTransitions.swift */,
+				800710BA2B8522A4008BC271 /* CustomTransitionsUsingViewModifier.swift */,
 			);
 			path = SwiftUIAnimations;
 			sourceTree = "<group>";
@@ -263,10 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800710B32B84EEC7008BC271 /* AnimationStack.swift in Sources */,
 				80E99C252B7D559300C62CC9 /* ExplicitAnimations.swift in Sources */,
 				801186E52B7C29070078E906 /* ContentView.swift in Sources */,
 				801186E32B7C29070078E906 /* SwiftUIAnimationsApp.swift in Sources */,
+				800710B92B852192008BC271 /* ShowingHidingViewsWithTransitions.swift in Sources */,
+				800710BB2B8522A4008BC271 /* CustomTransitionsUsingViewModifier.swift in Sources */,
+				800710B52B84FCB4008BC271 /* AnimatingGestures1.swift in Sources */,
 				80E99C272B7D569F00C62CC9 /* AnimatingBindings.swift in Sources */,
+				800710B72B850081008BC271 /* AnimatingGestures2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
